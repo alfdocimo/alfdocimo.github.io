@@ -41,3 +41,12 @@ hr{
 #main-button{
     opacity: 0;
 }
+#main-hr{
+    opacity: 0;
+}
+
+#dataSet{
+    max-height: 500px !important;
+    max-width: 500px !important;
+    display: inline-block;
+}
