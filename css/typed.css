@@ -93,3 +93,12 @@ section#contact :-ms-input-placeholder {
 .infoSpace{
     padding-bottom: 50px;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .contactInfo{
+        color: #fff;
+        font-size: 1.25em;
+    }
+
+}
