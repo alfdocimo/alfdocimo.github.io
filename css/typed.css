@@ -50,3 +50,46 @@ hr{
     max-width: 500px !important;
     display: inline-block;
 }
+.whiteFont{
+    color:#fff;
+}
+
+section#contact ::-webkit-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    color: #222;
+}
+section#contact :-moz-placeholder {
+    /* Firefox 18- */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    color: #222;
+}
+section#contact ::-moz-placeholder {
+    /* Firefox 19+ */
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    color: #222;
+}
+section#contact :-ms-input-placeholder {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.5;
+    color: #222;
+}
+
+.contactInfo{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.infoSpace{
+    padding-bottom: 50px;
+}
