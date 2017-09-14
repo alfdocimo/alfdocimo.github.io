@@ -94,11 +94,18 @@ section#contact :-ms-input-placeholder {
     padding-bottom: 50px;
 }
 
+.addShadow{
+    box-shadow: 0 5px 15px #999;
+    border: none !important;
+}
+
 @media only screen and (max-width: 500px) {
 
     .contactInfo{
         color: #fff;
         font-size: 1.25em;
     }
-
+    #main-header{
+        font-size: 2em;
+    }
 }
